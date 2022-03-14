@@ -1,0 +1,28 @@
+body {
+  background: fixed no-repeat center center
+    url(./Image/daniel-burka-facU72FcKBI-unsplash.jpg);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.author {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+p.author,
+q.quote {
+  font-family: "Sacramento", cursive;
+  color: #cbc7b6;
+}
