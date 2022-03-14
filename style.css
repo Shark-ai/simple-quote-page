@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: fixed no-repeat center center
     url(./Image/daniel-burka-facU72FcKBI-unsplash.jpg);
@@ -25,4 +29,27 @@ p.author,
 q.quote {
   font-family: "Sacramento", cursive;
   color: #cbc7b6;
+}
+
+@media screen and (min-width: 600px) {
+  q.quote {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  q.quote {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 600px) {
+  p.author {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.author {
+    font-size: 10px;
+  }
 }
